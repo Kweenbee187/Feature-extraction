@@ -65,7 +65,7 @@ img_002.jpg  0  1  0   1
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/Kweenbee187/multilabel-classification.git
+git clone https://github.com/Kweenbee187/Feature-extraction.git
 cd multilabel-classification
 
 # 2. Create a virtual environment (recommended)

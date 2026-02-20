@@ -22,16 +22,13 @@ Built as an assignment submission for a multilabel classification task on a cust
 ## Project Structure
 
 ```
-multilabel-classification/
+Feature-extraction/
 ├── train.py          # Full training pipeline
 ├── inference.py      # Single-image prediction script
 ├── requirements.txt  # Python dependencies
 ├── .gitignore
-├── data/             # ← put your dataset here (not committed)
-│   ├── images/       #     all image files (.jpg / .png)
-│   └── labels.txt    #     whitespace-separated label file
-└── outputs/          # ← created automatically during training
-    ├── multilabel_model.pth
+└── Notebook/          # ← created automatically during training
+    ├── Notebook to create model
     └── loss_curve.png
 ```
 
@@ -66,7 +63,7 @@ img_002.jpg  0  1  0   1
 ```bash
 # 1. Clone the repo
 git clone https://github.com/Kweenbee187/Feature-extraction.git
-cd multilabel-classification
+cd Feature-extraction
 
 # 2. Create a virtual environment (recommended)
 python -m venv venv
@@ -188,6 +185,4 @@ Loss: `BCEWithLogitsLoss` (sigmoid applied internally) with `pos_weight` for cla
 
 ---
 
-## License
 
-MIT
